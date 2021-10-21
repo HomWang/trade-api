@@ -1,0 +1,17 @@
+[[exchange]]
+name = "deribit"
+debug_mode = false
+access_key = ""
+secret_key = ""
+passphrase = "" # 可选，OKEX需要配置此参数
+testnet = true
+websocket = false
+
+[log]
+path = "./app.log"
+level = "debug"
+
+[option]
+log_only = false # 只输出日志
+currency = "BTC" # 货币 BTC
+currency_pair = "BTC-PERPETUAL" # BTC
