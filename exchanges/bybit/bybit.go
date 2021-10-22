@@ -3,7 +3,7 @@ package bybit
 import (
 	"errors"
 	"fmt"
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"github.com/frankrap/bybit-api/rest"
 	"log"
 	"strings"

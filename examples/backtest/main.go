@@ -1,10 +1,10 @@
 package main
 
 import (
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/backtest"
-	"github.com/coinrust/crex/dataloader"
-	"github.com/coinrust/crex/exchanges/exsim"
+	. "github.com/516310460/trade-api"
+	"github.com/516310460/trade-api/backtest"
+	"github.com/516310460/trade-api/dataloader"
+	"github.com/516310460/trade-api/exchanges/exsim"
 	"time"
 )
 

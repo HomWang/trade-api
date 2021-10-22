@@ -1,6 +1,7 @@
 package backtest
 
 import (
+	"github.com/516310460/trade-api"
 	"github.com/coinrust/crex"
 	"testing"
 	"time"

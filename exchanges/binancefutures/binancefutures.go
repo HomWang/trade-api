@@ -9,8 +9,8 @@ import (
 	"time"
 
 	"github.com/adshao/go-binance/v2/futures"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/utils"
+	. "github.com/516310460/trade-api"
+	"github.com/516310460/trade-api/utils"
 )
 
 // BinanceFutures the Binance futures exchange

@@ -2,7 +2,7 @@ package backtest
 
 import (
 	"fmt"
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"strings"
 	"time"
 )

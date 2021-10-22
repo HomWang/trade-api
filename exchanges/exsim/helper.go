@@ -1,7 +1,7 @@
 package exsim
 
 import (
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 )
 
 //im := (0.01 + sizeCurrency*0.00005) * sizeCurrency

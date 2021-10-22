@@ -3,7 +3,7 @@ package bybit
 import (
 	"fmt"
 	"github.com/chuckpreslar/emission"
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	bws "github.com/frankrap/bybit-api/ws"
 	"log"
 	"time"

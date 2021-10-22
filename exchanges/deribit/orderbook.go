@@ -3,7 +3,7 @@ package deribit
 import (
 	"fmt"
 	"github.com/MauriceGit/skiplist"
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"github.com/frankrap/deribit-api/models"
 )
 

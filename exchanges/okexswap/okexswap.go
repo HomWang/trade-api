@@ -2,13 +2,13 @@ package okexswap
 
 import (
 	"fmt"
-	"github.com/coinrust/crex/utils"
+	"github.com/516310460/trade-api/utils"
 	"github.com/spf13/cast"
 	"strconv"
 	"strings"
 	"time"
 
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"github.com/frankrap/okex-api"
 )
 

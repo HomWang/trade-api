@@ -3,7 +3,7 @@ package deribit
 import (
 	"errors"
 	"fmt"
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"github.com/frankrap/deribit-api"
 	"github.com/frankrap/deribit-api/models"
 	"log"

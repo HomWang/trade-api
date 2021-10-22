@@ -3,8 +3,8 @@ package backtest
 import (
 	"bytes"
 	"fmt"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/log"
+	. "github.com/516310460/trade-api"
+	"github.com/516310460/trade-api/log"
 	"github.com/spf13/cast"
 	"github.com/tidwall/gjson"
 	"io/ioutil"

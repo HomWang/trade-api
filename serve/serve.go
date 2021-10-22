@@ -4,9 +4,9 @@ import (
 	"flag"
 	"fmt"
 	"github.com/BurntSushi/toml"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/exchanges"
-	"github.com/coinrust/crex/log"
+	. "github.com/516310460/trade-api"
+	"github.com/516310460/trade-api/exchanges"
+	"github.com/516310460/trade-api/log"
 )
 
 var (

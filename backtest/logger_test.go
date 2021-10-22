@@ -1,7 +1,7 @@
 package backtest
 
 import (
-	"github.com/coinrust/crex/log"
+	"github.com/516310460/trade-api/log"
 	"testing"
 )
 

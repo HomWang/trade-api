@@ -2,8 +2,8 @@ package okexswap
 
 import (
 	"github.com/chuckpreslar/emission"
-	. "github.com/coinrust/crex"
-	"github.com/coinrust/crex/utils"
+	. "github.com/516310460/trade-api"
+	"github.com/516310460/trade-api/utils"
 	"github.com/frankrap/okex-api"
 	"time"
 )

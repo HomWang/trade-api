@@ -1,7 +1,7 @@
 package bitmex
 
 import (
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"github.com/frankrap/bitmex-api"
 	"github.com/frankrap/bitmex-api/swagger"
 	"sort"

@@ -1,7 +1,7 @@
 package bybit
 
 import (
-	. "github.com/coinrust/crex"
+	. "github.com/516310460/trade-api"
 	"log"
 	"testing"
 )
