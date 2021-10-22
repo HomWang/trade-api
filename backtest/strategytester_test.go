@@ -2,7 +2,6 @@ package backtest
 
 import (
 	"github.com/516310460/trade-api"
-	"github.com/coinrust/crex"
 	"testing"
 	"time"
 )
@@ -15,11 +14,11 @@ func TestStrategyTester_CalAnnReturn(t *testing.T) {
 	backtest := NewBacktest(nil, "", startTime, endTime, nil, nil, "")
 	st.backtest = backtest
 
-	st.logs = append(st.logs, &crex.LogItem{
+	st.logs = append(st.logs, &trade.LogItem{
 		Time:    startTime,
 		RawTime: startTime,
 		Prices:  []float64{5000.0, 5000.0},
-		Stats: []crex.LogStats{
+		Stats: []trade.LogStats{
 			{
 				Balance: 100000,
 				Equity:  100000,
@@ -31,11 +30,11 @@ func TestStrategyTester_CalAnnReturn(t *testing.T) {
 		},
 	})
 
-	st.logs = append(st.logs, &crex.LogItem{
+	st.logs = append(st.logs, &trade.LogItem{
 		Time:    startTime.Add(1 * time.Hour),
 		RawTime: startTime.Add(1 * time.Hour),
 		Prices:  []float64{5000.0, 5000.0},
-		Stats: []crex.LogStats{
+		Stats: []trade.LogStats{
 			{
 				Balance: 95000,
 				Equity:  95000,
@@ -47,11 +46,11 @@ func TestStrategyTester_CalAnnReturn(t *testing.T) {
 		},
 	})
 
-	st.logs = append(st.logs, &crex.LogItem{
+	st.logs = append(st.logs, &trade.LogItem{
 		Time:    endTime,
 		RawTime: endTime,
 		Prices:  []float64{5500.0, 5500.0},
-		Stats: []crex.LogStats{
+		Stats: []trade.LogStats{
 			{
 				Balance: 100000,
 				Equity:  101000,
