@@ -15,11 +15,11 @@ script:
   - env GO111MODULE=on go build
 
 # before_deploy:
-#   - GOARCH=amd64 GOOS=linux   go build -o crex-linux-amd64
-#   - GOARCH=amd64 GOOS=windows go build -o crex-windows-amd64.exe
-#   - zip -r crex-linux-amd64.zip crex-linux-amd64
+#   - GOARCH=amd64 GOOS=linux   go build -o trade-linux-amd64
+#   - GOARCH=amd64 GOOS=windows go build -o trade-windows-amd64.exe
+#   - zip -r trade-linux-amd64.zip trade-linux-amd64
 #   - unix2dos config.toml README.md
-#   - zip -r crex-windows-amd64.zip crex-windows-amd64
+#   - zip -r trade-windows-amd64.zip trade-windows-amd64
 
 # deploy:
 #   provider: releases
@@ -28,8 +28,8 @@ script:
 #   github_token: $GITHUB_TOKEN
 #   keep_history: true
 #   file:
-#   - crex-linux-amd64.zip
-#   - crex-windows-386.zip
+#   - trade-linux-amd64.zip
+#   - trade-windows-386.zip
 #   on:
 #     tags: true
 #     all_branches: true
