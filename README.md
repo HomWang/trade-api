@@ -1,23 +1,8 @@
-<div align=center><img src="https://raw.githubusercontent.com/coinrust/crex/master/images/logo.png" /></div>
-
-<p align="center">
-  <a href="https://github.com/golang/go">
-    <img alt="GitHub go.mod Go version" src="https://img.shields.io/github/go-mod/go-version/coinrust/crex">
-  </a>
-
-  <a href="https://trade-api/master/LICENSE">
-    <img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="license">
-  </a>
-  <a href="https://www.travis-ci.com/coinrust/crex">
-    <img src="https://www.travis-ci.com/coinrust/crex.svg?branch=master" alt="build status">
-  </a>
-</p>
-
-# CREX
+# Trade
 
 [中文](README.md) | [English](README_en.md)
 
-**CREX** 是一个用Golang语言开发的量化交易库。支持`tick`级别数字币期货平台的回测和实盘。实盘与回测无缝切换，无需更改代码。
+**Trade** 是一个用Golang语言开发的量化交易库。支持`tick`级别数字币期货平台的回测和实盘。实盘与回测无缝切换，无需更改代码。
 
 ## 回测
 示例 [@backtest](https://github.com/516310460/trade-api/blob/master/examples/backtest/main.go)
@@ -38,7 +23,7 @@
 * 支持期货双向合约，正反向合约
 
 ## 支持交易所
-CREX库当前支持以下8个加密货币交易市场和交易API
+Trade库当前支持以下8个加密货币交易市场和交易API
 
 | logo                                                                                                                                             | id             | name                                                                      | ver | ws  | doc                                                               |
 | ------------------------------------------------------------------------------------------------------------------------------------------------ | -------------- | ------------------------------------------------------------------------- | --- | --- | ----------------------------------------------------------------- |
