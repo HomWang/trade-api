@@ -208,14 +208,10 @@ go build
 ## TODO
 * Paper trading.
 
-## QQ群
-QQ群: [932289088](https://jq.qq.com/?_wv=1027&k=5rg0FEK)
-
 ## 捐赠
 | METHOD  | ADDRESS                                     |
 |-------- |-------------------------------------------- |
-| BTC     | 1Nk4AsGj5HEJ5csRenTUPab1sjUySCZ3Pq          |
-| ETH     | 0xa74eade7ea08a8c48d7de4d582fac145afc86e3d  |
+| BNB     | 0x8662dA867c245e737afde7bC7C355a6d04746470  |
 
 ## LICENSE
-MIT [©coinrust](https://github.com/coinrust)
+MIT [©coinrust](https://github.com/516310460/trade-api)
