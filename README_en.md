@@ -11,9 +11,6 @@ See [@backtest](https://github.com/516310460/trade-api/blob/master/examples/back
 <div align=center><img src="https://raw.githubusercontent.com/516310460/trade-api/master/images/trade_result.png" /></div>
 <div align=center><img src="https://raw.githubusercontent.com/516310460/trade-api/master/images/trade_history_report.png" /></div>
 
-## Open-source trading strategies
-[https://github.com/coinrust/trading-strategies](https://github.com/coinrust/trading-strategies)
-
 ### Main Features
 * easy to use.
 * Tick level backtest.
