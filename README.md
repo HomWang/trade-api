@@ -11,9 +11,6 @@
 <div align=center><img src="https://raw.githubusercontent.com/516310460/trade-api/master/images/trade_result.png" /></div>
 <div align=center><img src="https://raw.githubusercontent.com/516310460/trade-api/master/images/trade_history_report.png" /></div>
 
-## 开源策略
-[https://github.com/coinrust/trading-strategies](https://github.com/coinrust/trading-strategies)
-
 ## 主要特性
 * 使用简单
 * Tick级别回测
